@@ -1,2 +1,2 @@
-# INTRODUCTION-TO-ALGORITHMS
-Learn
+# suanfa-daolun
+Learning diary
