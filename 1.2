@@ -1,10 +1,11 @@
-#1.2
+#练习1.2
 
 
 1.2-2
-calculating speed
-8n^2   64nlgn
-% matlab
+运行时间比较
+8n^2 与 64nlgn
+
+         使用 matlab
 x=0:0.1:10;
 y1=8*power(x,2);
 y2=64.*x.*log10(x);
@@ -16,13 +17,15 @@ subplot(1,2,1);
 plot(x,y2,'r');
 hold on;
 
+得
 n=2到6
 
 
 1.2-3
-calculating speed
-100n^2   2^n
-% matlab
+运行时间比较
+100n^2 与 2^n
+
+          使用 matlab
 x=0:0.001:50;
 y1=100*x.^2;
 y2=2.^x;
@@ -33,4 +36,5 @@ subplot(1,2,1);
 plot(x,y2,'r');
 hold on;
 
+得
 n=15
